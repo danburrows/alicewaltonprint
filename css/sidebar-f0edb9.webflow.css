@@ -1082,7 +1082,7 @@ a {
 .menu-icon4_line-top {
   background-color: var(--black);
   width: 24px;
-  height: 2px;
+  height: 1px;
   padding-bottom: 0;
   padding-right: 0;
 }
@@ -1092,7 +1092,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 24px;
-  height: 2px;
+  height: 1px;
   margin-top: 6px;
   margin-bottom: 6px;
   display: flex;
@@ -1101,7 +1101,7 @@ a {
 .menu-icon4_line-middle-top {
   z-index: 2;
   width: 24px;
-  height: 2px;
+  height: 1px;
   position: absolute;
   inset: 0;
 }
@@ -1109,14 +1109,14 @@ a {
 .menu-icon4_line-middle-base {
   background-color: var(--black);
   width: 24px;
-  height: 2px;
+  height: 1px;
   position: absolute;
 }
 
 .menu-icon4_line-bottom {
   background-color: var(--black);
   width: 24px;
-  height: 2px;
+  height: 1px;
 }
 
 .nav-link-2 {
@@ -1847,9 +1847,9 @@ a {
 
   .navbar17_links-wrapper {
     background-color: var(--white);
+    border-top: 1px solid #0000001a;
     flex: 0 auto;
     align-self: stretch;
-    margin-top: 1px;
     padding-bottom: .5rem;
     padding-left: 5svw;
     padding-right: 5svw;
@@ -1876,7 +1876,6 @@ a {
   .menu-icon4_line-middle-top {
     background-color: var(--black);
     height: 1px;
-    display: none;
   }
 
   .menu-icon4_line-middle-base, .menu-icon4_line-bottom {
