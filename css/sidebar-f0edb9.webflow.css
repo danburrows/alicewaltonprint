@@ -1837,7 +1837,7 @@ a {
   }
 
   .navbar17_logo {
-    padding-left: 5px;
+    padding-left: 0;
     padding-right: 3px;
   }
 
@@ -1876,7 +1876,7 @@ a {
   .menu-icon4_line-middle-top {
     background-color: var(--black);
     height: 1px;
-    display: block;
+    display: none;
   }
 
   .menu-icon4_line-middle-base, .menu-icon4_line-bottom {
@@ -1885,6 +1885,10 @@ a {
 
   .nav-link-2 {
     border-top: 1px solid #0000001a;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
   }
 
   .nav-link-2.is-mobile-nav {
@@ -1894,6 +1898,11 @@ a {
 
   .nav-link-2.is-mobile-nav.top {
     border-top-width: 0;
+    flex-flow: row;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: stretch;
+    width: 100%;
   }
 }
 
