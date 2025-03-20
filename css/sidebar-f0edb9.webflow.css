@@ -1836,6 +1836,10 @@ a {
     margin-bottom: -.1rem;
   }
 
+  .navbar17_container {
+    margin-left: 2svw;
+  }
+
   .navbar17_logo {
     padding-left: 0;
     padding-right: 3px;
@@ -1850,6 +1854,7 @@ a {
     border-top: 1px solid #0000001a;
     flex: 0 auto;
     align-self: stretch;
+    height: 100%;
     padding-bottom: .5rem;
     padding-left: 5svw;
     padding-right: 5svw;
